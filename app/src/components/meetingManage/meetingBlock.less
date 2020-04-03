@@ -1,0 +1,119 @@
+.meetingBlock{
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+  SimSun, sans-serif;
+    margin-top: 30px;
+  .am-card-header{
+    background-color: #3898D8;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    .am-card-header-extra{
+      flex: 2;
+      color: white;
+      div{
+       height: 100%;
+        width: 100%;
+        display: -webkit-flex;
+        justify-content:flex-end;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: left;
+        span{
+          word-wrap:break-word;
+          word-break:break-all;
+          white-space:pre-wrap;
+        }
+        img{
+          height: 45px;
+          width: 45px;
+        }
+      }
+
+    }
+    .am-card-header-content{
+      flex: 3;
+      img{
+        height: 45px;
+        width: 45px;
+      }
+      span{
+      color: white;
+      }
+    }
+  }
+  .sdate{
+    p{
+      text-align: center;
+      margin: 0px;
+      font-size: 32px;
+    }
+    div{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 50px;
+      height: 60px;
+      font-family: Tahoma;
+      &>span{
+        height: 60px;
+      }
+      span img{
+        height: 40px;
+        line-height: 40px;
+      }
+      span b{
+        font-weight: normal;
+        color: #666666;
+        font-size: 28px;
+      }
+    }
+  }
+  .attendee{
+    width: 100%;
+    min-height: 100px;
+    .department_name{
+      float: left;
+      font-weight: bold;
+      line-height: 40px;
+      width: 28%;
+      height: 100%;
+      padding-top: 2px;
+      text-align: right;
+      padding-right: 20px;
+    }
+    .department{
+      float: left;
+      width: 68%;
+      height: 100%;
+      line-height: 40px;
+      word-wrap:break-word;
+      word-break:break-all;
+      p{
+        margin: 0;
+      }
+    }
+  }
+  .organizers{
+    width: 100%;
+    min-height: 60px;
+    padding-top: 20px;
+    .organizer_name{
+      float: left;
+      font-weight: bold;
+      line-height: 40px;
+      width: 28%;
+      height: 100%;
+      text-align:right;
+      padding-right: 20px;
+    }
+    .organizer{
+      float: left;
+      width: 68%;
+      height: 100%;
+      line-height: 40px;
+      padding-bottom: 20px;
+      word-wrap:break-word;
+      word-break:break-all;
+    }
+  }
+}

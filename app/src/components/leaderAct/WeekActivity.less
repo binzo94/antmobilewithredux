@@ -1,0 +1,63 @@
+.my-accordion{
+  margin-top: 20px;
+  .leader_content{
+    height:auto;
+    width: 100%;
+    border-bottom:1px solid RGB(229,229,229);
+    .leader_left{
+      width: 25%;
+      height: 100px;
+      float:left;
+      border-right:1px solid RGB(229,229,229);
+      .person_ic{
+        width: 40%;
+        float: left;
+        height:100%;
+        text-align:center;
+        span{
+          display:inline-block;
+          height:100%;
+          vertical-align:middle;
+        }
+        img{ vertical-align:middle;
+        }
+      }
+      .person_myname{
+        width: 59%;
+        height: 100%;
+        float: left;
+        display: table;
+        span{
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+    .leader_right
+    {
+      width: 74%;
+      float:right;
+      height: 100%;
+      display:inline-block;
+    }
+  }
+  .leader_content:after{
+    clear:both;
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    visibility:hidden;
+  }
+  .leader_nocontent{
+    height:150px;
+    width: 100%;
+    box-sizing:border-box;
+    padding-top:55px;
+  }
+  .am-accordion-header img{
+    vertical-align:middle;
+    width:20px ;
+    height: 20px;
+  }
+}

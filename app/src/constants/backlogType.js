@@ -1,0 +1,6 @@
+
+//详细信息
+export const BACKLOG_REQUEST = 'BACKLOG_REQUEST';
+export const BACKLOG_SUCCESS = 'BACKLOG_SUCCESS';
+export const BACKLOG_FAILED = 'BACKLOG_FAILED';
+export const BACKLOG_NOFETCH = 'BACKLOG_NOFETCH';

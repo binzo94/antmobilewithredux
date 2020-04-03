@@ -1,0 +1,107 @@
+.matterList{
+  .head{
+    width:100%;
+    height:80px;
+    color:white;
+    background-color:rgb(58,155,221);
+    font-weight: bold;
+    border-radius:8px 8px 0 0;
+    line-height:70px;
+
+    ul li{
+      list-style:none;
+      float:left;
+      text-align:center;
+      line-height:80px;
+      height:80px;
+      span{
+        line-height:80px;
+        height:80px;
+        box-sizing: border-box;
+      }
+      img{
+        display:block;
+        height:50px;
+        text-align:center;
+        padding-top:15px;
+        margin-left:-20px;
+      }
+    }
+    .detail{
+      float:right;
+      margin-right:25px;
+    }
+  }
+  ul:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+
+  .content{
+    height:200px;
+    width:100%;
+    background-color:white;
+    border-radius:0 0 8px 8px;
+    word-wrap: break-word;
+
+    .left{
+      float:left;
+      width:35%;
+      height:100%;
+      border-right:1px solid RGB(229,229,229);
+      .up{
+        height:50%;
+        width:100%;
+        display: flex;
+        align-items: center;
+        border-bottom:1px solid RGB(229,229,229);
+      }
+      .down{
+        height:50%;
+        width:100%;
+        display:flex;
+        align-items: center;
+      }
+      .mark{
+        flex:1;
+        line-height: 1;
+        img{
+          padding-left:20px;
+          padding-right:10px;
+          height: 32px;
+          width: 32px;
+
+        }
+
+      }
+      .marktext{
+        flex:4;
+        width:78%;
+        line-height: 1;
+        color:RGB(51,51,51);
+      }
+    }
+    .right{
+      width:64%;
+      float:right;
+      height:100%;
+    }
+
+    .textarea{
+      width:100%;
+      height:170px;
+      border:none;
+      word-wrap:break-word;
+      word-break:break-all;
+      white-space:pre-wrap;
+    }
+  }
+  .content:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
